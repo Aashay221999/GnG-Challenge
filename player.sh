@@ -1,4 +1,6 @@
-for a in {1..100}
+for a in {100..200}
 do
-touch "$a "
+touch $a 
+git add .
+git commit -m "added $a"
 done
