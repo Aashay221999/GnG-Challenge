@@ -7,5 +7,6 @@ touch flag$counter
 echo "nothing" > flag$counter
 git add .
 git commit -m "deleting $counter"
+((counter++))
 done
 echo All done
